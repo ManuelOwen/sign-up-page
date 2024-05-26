@@ -1,0 +1,68 @@
+:root{
+    --color: #213547;
+    --background-color: #ffffff;
+    --primary-color: #646cff;
+    --secondary-color: #535bf2;
+    --tertiary-color: #747bff;
+    --button-color: #1a1a1a;
+    --button-hover-color: #646cff;
+    --button-focus-color: #646cff;
+    --button-background-color: #f9f9f9;
+    --button-hover-background-color: #f9f9f9;
+    --button-focus-background-color: #f9f9f9;
+    --logo-color: #646cffaa;
+    --logo-react-color: #61dafbaa;
+    --logo-spin-color: #61dafbaa;
+    --card-color: #888;
+    --read-the-docs-color: #888;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--color);
+    font-family: popins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+    height: 450px;
+    width: 380px;
+    background-color:#d6dee5;
+    border-radius: 7px;
+    box-shadow:  0 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 70px;
+}
+input{
+    display: block;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+   border: var(--card-color);
+}
+input:hover{
+    border: 1px solid var(--primary-color);
+}
+button{
+    background-color: var(--button-background-color);
+    color: var(--color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: green;
+}

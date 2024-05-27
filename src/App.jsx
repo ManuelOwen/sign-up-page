@@ -22,7 +22,7 @@ function App() {
     <>
       <div className='container'>
         <header className='header'> 
-          <h1>LOGIN</h1>
+          <h1>Sign up</h1>
         </header>
         <form onSubmit={handleSubmit(onSubmit)}>
           <input type="text" {...register("name")} placeholder='Enter your name' />
